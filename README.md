@@ -55,10 +55,10 @@ Après Lehman Brothers, Google a besoin de toi pour faire de la Data Science. Qu
 La fonction devra renvoyer le nombre d'occurrences de chaque mot du dictionnaire dans le corpus sous la forme d'un hash. Ainsi :
 
 <code>
-> dictionary = ["below", "down", "go", "going", "horn", "how", "howdy", "it", "i", "low", "own", "part", "partner", "sit"]
-> word_counter("below", dictionary)
-=> {"below"=>1, "low"=>1}
-> word_counter("Howdy partner, sit down! How's it going?", dictionary)
+> dictionary = ["below", "down", "go", "going", "horn", "how", "howdy", "it", "i", "low", "own", "part", "partner", "sit"]  
+> word_counter("below", dictionary)  
+=> {"below"=>1, "low"=>1}  
+> word_counter("Howdy partner, sit down! How's it going?", dictionary)  
 => {"down"=>1, "how"=>2, "howdy"=>1,"go"=>1, "going"=>1, "it"=>2, "i"=> 3, "own"=>1,"part"=>1,"partner"=>1,"sit"=>1}
 </code>
 
